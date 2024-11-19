@@ -10,6 +10,7 @@ func main() {
 	fmt.Println("Результат простого задания:", resEasy)
 }
 
+// easyHomeWork calculates and returns the sum of all integers in the given array.
 func easyHomeWork(arr []int) int {
 	var sum int
 	for i := 0; i < len(arr); i++ {
